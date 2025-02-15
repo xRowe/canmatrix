@@ -7,7 +7,6 @@ name = "canmatrix"
 dynamic = ["readme", "version"]
 description = "Automotive Communication Matrix"
 authors = [{ name="Eduard Bröcker", email = "eduard@gmx.de" }]
-maintainers = [{ name = "canmatrix contributors" }]
 dependencies = [
     "attrs>=19.2.0",
     "click",
@@ -36,18 +35,18 @@ classifiers = [
     "Intended Audience :: Information Technology",
     "Intended Audience :: Manufacturing",
     "Intended Audience :: Telecommunications Industry",
-    "License :: OSI Approved :: BSD-2-Clause License",
+    "License :: OSI Approved :: BSD-2-Clause",
     "Natural Language :: English",
+    "Operating System :: Windows",
+    "Operating System :: Linux",
     "Operating System :: MacOS",
-    "Operating System :: Microsoft :: Windows",
-    "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Topic :: Software Development :: Embedded Systems",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Embedded Systems :: Controller Area Network (CAN)",
     "Topic :: System :: Networking",
     "Topic :: Utilities",
