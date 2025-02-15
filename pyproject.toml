@@ -35,7 +35,7 @@ classifiers = [
     "Intended Audience :: Information Technology",
     "Intended Audience :: Manufacturing",
     "Intended Audience :: Telecommunications Industry",
-    "License :: OSI Approved :: BSD-2-Clause",
+    "License :: OSI Approved :: BSD License",
     "Natural Language :: English",
     "Operating System :: Windows",
     "Operating System :: Linux",
