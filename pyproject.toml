@@ -80,10 +80,11 @@ yaml = ["pyyaml"]
 eds = ["canopen"]
 
 [tool.setuptools.dynamic]
-readme = { file = "README.md" }
+readme = { file = "README.rst" }
+version = {attr = "canmatrix.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-canmatrix = ["j1939.dbc"]
+canmatrix = ["j1939.dbc", "py.typed"]
